@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import { Link } from "react-router-dom";
 const Line = lazy(() => import("../others/Line"));
-
+//s,m,ms,sm
 const MostViewed = (props) => {
   return (
     <div className={`mb-4 px-4 ${props.className ? props.className : ""}`}>
